@@ -1,0 +1,1769 @@
+".text.html":
+    "headers":
+    "prefix": "headers"
+    "body": "{headers}"
+    ,
+
+    "jsfiles":
+    "prefix": "jsfiles"
+    "body": "{jsfiles}"
+    ,
+
+    "THEME":
+    "prefix": "THEME"
+    "body": "{THEME}"
+    ,
+
+    "login:home":
+    "prefix": "login"
+    "body": "{login}"
+    ,
+
+    "vote":
+    "prefix": "vote"
+    "body": "{vote}"
+    ,
+
+    "changeskin":
+    "prefix": "changeskin"
+    "body": "{changeskin}"
+    ,
+
+    "calendar":
+    "prefix": "calendar"
+    "body": "{calendar}"
+    ,
+
+    "topnews":
+    "prefix": "topnews"
+    "body": "{topnews}"
+    ,
+
+    "archives":
+    "prefix": "archives"
+    "body": "{archives}"
+    ,
+
+    "info":
+    "prefix": "info"
+    "body": "{info}"
+    ,
+
+    "content":
+    "prefix": "content"
+    "body": "{content}"
+    ,
+
+    "custom:all":
+    "prefix": "custom"
+    "body": "{custom id=\"${1:1}\" category=\"${2:1}\" author=\"${3:author-name}\" days=\"${4:days-number}\" template=\"${5:template-name}\" available=\"${6|global,main,date,cat,showfull,search,userinfo,register,stats,pm,feedback,favorites,newposts,addnews,lastnews,lastcomments,lostpassword,static,catalog,alltags,tags,allnews|}\" navigation=\"${7|no,yes|}\" from=\"${8:0}\" limit=\"${9:10}\" fixed=\"${10|no,yes|}\" order=\"${11|date,editdate,rating,reads,comments,title,rand,id_as_list|}\" sort=\"${12|desc,asc|}\" cache=\"${13|no,yes|}\"}"
+    ,
+
+    "custom:popular":
+    "prefix": "custom"
+    "body": "{custom category=\"${2:1}\" template=\"${5:template-name}\" available=\"${6|global,main,date,cat,showfull,search,userinfo,register,stats,pm,feedback,favorites,newposts,addnews,lastnews,lastcomments,lostpassword,static,catalog,alltags,tags,allnews|}\" navigation=\"${7|no,yes|}\" from=\"${8:0}\" limit=\"${9:10}\" order=\"${11|date,editdate,rating,reads,comments,title,rand,id_as_list|}\" sort=\"${12|desc,asc|}\" cache=\"${13|no,yes|}\"}"
+    ,
+
+    "available":
+    "prefix": "available"
+    "body": "[available=${1|global,main,date,cat,showfull,search,userinfo,register,stats,pm,feedback,favorites,newposts,addnews,lastnews,lastcomments,lostpassword,static,catalog,alltags,tags,allnews|}] ${2:text} [/available] "
+    ,
+
+    "AJAX":
+    "prefix": "AJAX"
+    "body": "{AJAX}"
+    ,
+
+    "group if":
+    "prefix": "group"
+    "body": "[group=${1|1,2,3,4,5|}] ${2:text} [/group]"
+    ,
+
+    "category:if":
+    "prefix": "category"
+    "body": "[category=${1:X}] ${2:text} [/category]"
+    ,
+
+    "banner":
+    "prefix": "banner"
+    "body": "{banner_${1:name}}"
+    ,
+
+    "inform":
+    "prefix": "inform"
+    "body": "{inform_${1:name}}"
+    ,
+
+    "not-category":
+    "prefix": "not-category"
+    "body": "[not-category=${1:1}] ${2:text} [/not-category]"
+    ,
+
+    "not-group":
+    "prefix": "not-group"
+    "body": "[not-group=${1:1}] ${2:text} [/not-group]"
+    ,
+
+    "page-count":
+    "prefix": "page-count"
+    "body": "[page-count=${1:1,2,3}] ${2:text} [/page-count]"
+    ,
+
+    "not-page-count":
+    "prefix": "not-page-count"
+    "body": "[not-page-count=${1:1,2,3}] ${2:text} [/not-page-count]"
+    ,
+
+    "news":
+    "prefix": "news"
+    "body": "[news=${1:1,2,3}] ${2:text} [/news]"
+    ,
+
+    "not-news":
+    "prefix": "not-news"
+    "body": "[not-news=${1:1,2,3}] ${2:text} [/not-news]"
+    ,
+
+    "tags:if":
+    "prefix": "tags"
+    "body": "[tags=${1:tag1,tag2,tag3}] ${2:text} [/tags]"
+    ,
+
+    "not-tags":
+    "prefix": "not-tags"
+    "body": "[not-tags=${1:tag1,tag2,tag3}] ${2:text} [/not-tags]"
+    ,
+
+    "related-news":
+    "prefix": "related-news"
+    "body": "[related-news]{related-news}[/related-news]"
+    ,
+
+    "vk":
+    "prefix": "vk"
+    "body": "[vk] ${1:text} [/vk]"
+    ,
+
+    "vk_url":
+    "prefix": "vk_url"
+    "body": "{vk_url}"
+    ,
+
+    "odnoklassniki":
+    "prefix": "odnoklassniki"
+    "body": "[odnoklassniki] ${1:text} [/odnoklassniki]"
+    ,
+
+    "odnoklassniki_url":
+    "prefix": "odnoklassniki_url"
+    "body": "{odnoklassniki_url}"
+    ,
+
+    "facebook":
+    "prefix": "facebook"
+    "body": "[facebook] ${1:text} [/facebook]"
+    ,
+
+    "facebook_url":
+    "prefix": "facebook_url"
+    "body": "{facebook_url}"
+    ,
+
+    "google":
+    "prefix": "google"
+    "body": "[google] ${1:text} [/google]"
+    ,
+
+    "google_url":
+    "prefix": "google_url"
+    "body": "{google_url}"
+    ,
+
+    "mailru":
+    "prefix": "mailru"
+    "body": "[mailru] ${1:text} [/mailru]"
+    ,
+
+    "mailru_url":
+    "prefix": "mailru_url"
+    "body": "{mailru_url}"
+    ,
+
+    "yandex":
+    "prefix": "yandex"
+    "body": "[yandex] ${1:text} [/yandex]"
+    ,
+
+    "yandex_url":
+    "prefix": "yandex_url"
+    "body": "{yandex_url}"
+    ,
+
+    "xfvalue":
+    "prefix": "xfvalue"
+    "body": "[xfvalue_${1:X}]"
+    ,
+
+    "xfgiven":
+    "prefix": "xfgiven"
+    "body": "[xfgiven_${1:X}] ${2:text} [/xfgiven_${1:X}]"
+    ,
+
+    "xfnotgiven":
+    "prefix": "xfnotgiven"
+    "body": "[xfnotgiven_${1:X}] ${2:text} [/xfnotgiven_${1:X}]"
+    ,
+
+    "ifxfvalue":
+    "prefix": "ifxfvalue"
+    "body": "[ifxfvalue tagname=\"${1:tagvalue}\"] ${2:Text} [/ifxfvalue]"
+    ,
+
+    "ifxfvalue not":
+    "prefix": "ifxfvalue not"
+    "body": "[ifxfvalue tagname!=\"${1:tagvalue}\"] ${2:Text} [/ifxfvalue]"
+    ,
+
+    "catmenu":
+    "prefix": "catmenu"
+    "body": "{catmenu}"
+    ,
+
+    "catnewscount":
+    "prefix": "catnewscount"
+    "body": "{catnewscount id=\"${1:1}\"}"
+    ,
+
+    "category-id":
+    "prefix": "category-id"
+    "body": "{category-id}"
+    ,
+
+    "category-title":
+    "prefix": "category-title"
+    "body": "{category-title}"
+    ,
+
+    "category-description":
+    "prefix": "category-description"
+    "body": "{category-description}"
+    ,
+
+    "page-title":
+    "prefix": "page-title"
+    "body": "{page-title}"
+    ,
+
+    "page-description":
+    "prefix": "page-description"
+    "body": "{page-description}"
+    ,
+
+    "page-title if":
+    "prefix": "page-title"
+    "body": "[page-title] ${1:text} [/page-title]"
+    ,
+
+    "not-page-title":
+    "prefix": "not-page-title"
+    "body": "[not-page-title] ${1:text} [/not-page-title]"
+    ,
+
+    "page-description if":
+    "prefix": "page-description"
+    "body": "[page-description] ${1:text} [/page-description]"
+    ,
+
+    "not-page-description":
+    "prefix": "not-page-description"
+    "body": "[not-page-description] ${1:text} [/not-page-description]"
+    ,
+
+    "include":
+    "prefix": "include"
+    "body": "{include file=\"${1:my_block}.tpl\"}"
+    ,
+
+    "registration-link":
+    "prefix": "registration-link"
+    "body": "{registration-link}"
+    ,
+
+    "lostpassword-link":
+    "prefix": "lostpassword-link"
+    "body": "{lostpassword-link}"
+    ,
+
+    "logout-link":
+    "prefix": "logout-link"
+    "body": "{logout-link}"
+    ,
+
+    "admin-link":
+    "prefix": "admin-link"
+    "body": "{admin-link}"
+    ,
+
+    "pm-link":
+    "prefix": "pm-link"
+    "body": "{pm-link}"
+    ,
+
+    "new-pm":
+    "prefix": "new-pm"
+    "body": "{new-pm}"
+    ,
+
+    "all-pm":
+    "prefix": "all-pm"
+    "body": "{all-pm}"
+    ,
+
+    "favorite-count":
+    "prefix": "favorite-count"
+    "body": "{favorite-count}"
+    ,
+
+    "foto":
+    "prefix": "foto"
+    "body": "{foto}"
+    ,
+
+    "admin-link if":
+    "prefix": "admin-link"
+    "body": "[admin-link] ${1:text} [/admin-link]"
+    ,
+
+    "profile-link":
+    "prefix": "profile-link"
+    "body": "{profile-link}"
+    ,
+
+    "stats-link":
+    "prefix": "stats-link"
+    "body": "{stats-link}"
+    ,
+
+    "addnews-link":
+    "prefix": "addnews-link"
+    "body": "{addnews-link}"
+    ,
+
+    "favorites-link":
+    "prefix": "favorites-link"
+    "body": "{favorites-link}"
+    ,
+
+    "newposts-link":
+    "prefix": "newposts-link"
+    "body": "{newposts-link}"
+    ,
+
+    "group-icon":
+    "prefix": "group-icon"
+    "body": "{group-icon}"
+    ,
+
+    "login-method":
+    "prefix": "login-method"
+    "body": "{login-method}"
+    ,
+
+    "group":
+    "prefix": "group"
+    "body": "{group}"
+    ,
+
+    "title":
+    "prefix": "title"
+    "body": "{title}"
+    ,
+
+    "title:limit":
+    "prefix": "title"
+    "body": "{title limit=\"${1:x}\"}"
+    ,
+
+    "news-id":
+    "prefix": "news-id"
+    "body": "{news-id}"
+    ,
+
+    "short-story":
+    "prefix": "short-story"
+    "body": "{short-story}"
+    ,
+
+    "short-story:limit":
+    "prefix": "short-story"
+    "body": "{short-story limit=\"${1:x}\"}"
+    ,
+
+    "author":
+    "prefix": "author"
+    "body": "{author}"
+    ,
+
+    "date":
+    "prefix": "date"
+    "body": "{date}"
+    ,
+
+    "rating":
+    "prefix": "rating"
+    "body": "{rating}"
+    ,
+
+    "rating:if":
+    "prefix": "rating"
+    "body": "[rating] ${1:text} [/rating]"
+    ,
+
+    "rating-type-1":
+    "prefix": "rating-type-1"
+    "body": "[rating-type-1] ${1:text} [/rating-type-1]"
+    ,
+
+    "rating-type-2":
+    "prefix": "rating-type-2"
+    "body": "[rating-type-2] ${1:text} [/rating-type-2]"
+    ,
+
+    "rating-type-3":
+    "prefix": "rating-type-3"
+    "body": "[rating-type-3] ${1:text} [/rating-type-3]"
+    ,
+
+    "rating-minus":
+    "prefix": "rating-minus"
+    "body": "[rating-minus] ${1:text} [/rating-minus]"
+    ,
+
+    "rating-plus":
+    "prefix": "rating-plus"
+    "body": "[rating-plus] ${1:text} [/rating-plus]"
+    ,
+
+    "vote-num":
+    "prefix": "vote-num"
+    "body": "{vote-num}"
+    ,
+
+    "comments-num":
+    "prefix": "comments-num"
+    "body": "{comments-num}"
+    ,
+
+    "category":
+    "prefix": "category"
+    "body": "{category}"
+    ,
+
+    "category-icon":
+    "prefix": "category-icon"
+    "body": "{category-icon}"
+    ,
+
+    "views":
+    "prefix": "views"
+    "body": "{views}"
+    ,
+
+    "favorites":
+    "prefix": "favorites"
+    "body": "{favorites}"
+    ,
+
+    "add-favorites":
+    "prefix": "add-favorites"
+    "body": "[add-favorites] ${1:text} [/add-favorites]"
+    ,
+
+    "del-favorites":
+    "prefix": "del-favorites"
+    "body": "[del-favorites] ${1:text} [/del-favorites]"
+    ,
+
+    "edit":
+    "prefix": "edit"
+    "body": "[edit] ${1:edit} [/edit]"
+    ,
+
+    "link-category":
+    "prefix": "link-category"
+    "body": "{link-category}"
+    ,
+
+    "full-link:if":
+    "prefix": "full-link"
+    "body": "[full-link] ${1:text} [/full-link]"
+    ,
+
+    "com-link":
+    "prefix": "com-link"
+    "body": "[com-link] ${1:comments} [/com-link]"
+    ,
+
+    "xfvalue:limit":
+    "prefix": "xfvalue"
+    "body": "[xfvalue_${1:X} limit=\"${2:X2}\"]"
+    ,
+
+    "xfvalue_thumb":
+    "prefix": "xfvalue_thumb"
+    "body": "[xfvalue_thumb_url_${1:X}]"
+    ,
+
+    "xfvalue_image":
+    "prefix": "xfvalue_image"
+    "body": "[xfvalue_image_url_${1:X}]"
+    ,
+
+    "xfvalue image":
+    "prefix": "xfvalue image"
+    "body": "[xfvalue_${1:X} image=\"${2:Nr}\"]"
+    ,
+
+    "tags":
+    "prefix": "tags"
+    "body": "{tags}"
+    ,
+
+    "full-link":
+    "prefix": "full-link"
+    "body": "{full-link}"
+    ,
+
+    "edit-date:if":
+    "prefix": "edit-date"
+    "body": "[edit-date] ${1:text} [/edit-date]"
+    ,
+
+    "edit-date":
+    "prefix": "edit-date"
+    "body": "{edit-date}"
+    ,
+
+    "editor:story":
+    "prefix": "editor"
+    "body": "{editor}"
+    ,
+
+    "edit-reason:if":
+    "prefix": "edit-reason"
+    "body": "[edit-reason] ${1:text} [/edit-reason]"
+    ,
+
+    "edit-reason":
+    "prefix": "edit-reason"
+    "body": "{edit-reason}"
+    ,
+
+    "date:format":
+    "prefix": "date"
+    "body": "{date=${1:date-fromat}}"
+    ,
+
+    "approve":
+    "prefix": "approve"
+    "body": "{approve}"
+    ,
+
+    "fixed":
+    "prefix": "fixed"
+    "body": "[fixed] ${1:text} [/fixed]"
+    ,
+
+    "not-fixed":
+    "prefix": "not-fixed"
+    "body": "[not-fixed] ${1:text} [/not-fixed]"
+    ,
+
+    "day-news":
+    "prefix": "day-news"
+    "body": "[day-news] ${1:text} [/day-news]"
+    ,
+
+    "catlist":
+    "prefix": "catlist"
+    "body": "[catlist=${1:1,2....}] ${2:text} [/catlist]"
+    ,
+
+    "not-catlist":
+    "prefix": "not-catlist"
+    "body": "[not-catlist=${1:1,2....}] ${2:text} [/not-catlist]"
+    ,
+
+    "login":
+    "prefix": "login"
+    "body": "{login}"
+    ,
+
+    "poll:if":
+    "prefix": "poll"
+    "body": "[poll] ${1:text} [/poll]"
+    ,
+
+    "poll":
+    "prefix": "poll"
+    "body": "{poll}"
+    ,
+
+    "not-poll":
+    "prefix": "not-poll"
+    "body": "[not-poll] ${1:text} [/not-poll]"
+    ,
+
+    "profile":
+    "prefix": "profile"
+    "body": "[profile] ${1:text} [/profile]"
+    ,
+
+    "complaint":
+    "prefix": "complaint"
+    "body": "[complaint] ${1:text} [/complaint]"
+    ,
+
+    "category-url":
+    "prefix": "category-url"
+    "body": "{category-url}"
+    ,
+
+    "comments:if":
+    "prefix": "comments"
+    "body": "[comments] ${1:text} [/comments]"
+    ,
+
+    "not-comments":
+    "prefix": "not-comments"
+    "body": "[not-comments] ${1:text} [/not-comments]"
+    ,
+
+    "image-":
+    "prefix": "image-"
+    "body": "{image-${1:x}}"
+    ,
+
+    "image-:if":
+    "prefix": "image-"
+    "body": "[image-${1:x}] text [/image-${1:x}]"
+    ,
+
+    "declination":
+    "prefix": "declination"
+    "body": "[declination=${1:X}] ${2:text} [/declination]"
+    ,
+
+    "newscount":
+    "prefix": "newscount"
+    "body": "[newscount=${1:x}] ${2:text} [/newscount]"
+    ,
+
+    "not-newscount":
+    "prefix": "not-newscount"
+    "body": "[not-newscount=${1:x}] ${2:text} [/not-newscount]"
+    ,
+
+    "full-story":
+    "prefix": "full-story"
+    "body": "{full-story}"
+    ,
+
+    "full-story:limit":
+    "prefix": "full-story"
+    "body": "{full-story limit=\"${1:x}\"}"
+    ,
+
+    "pages:fullstory":
+    "prefix": "pages"
+    "body": "{pages}"
+    ,
+
+    "pages:if":
+    "prefix": "pages"
+    "body": "[pages] ${1:text} [/pages]"
+    ,
+
+    "print-link":
+    "prefix": "print-link"
+    "body": "[print-link] ${1:print} [/print-link]"
+    ,
+
+    "comments":
+    "prefix": "comments"
+    "body": "{comments}"
+    ,
+
+    "addcomments":
+    "prefix": "addcomments"
+    "body": "{addcomments}"
+    ,
+
+    "navigation":
+    "prefix": "navigation"
+    "body": "{navigation}"
+    ,
+
+    "fullimage":
+    "prefix": "fullimage"
+    "body": "{fullimage-${1:x}}"
+    ,
+
+    "fullimage:if":
+    "prefix": "fullimage"
+    "body": "[fullimage-${1:x}] ${2:text} [/fullimage-${1:x}]"
+    ,
+
+    "comments-subscribe":
+    "prefix": "comments-subscribe"
+    "body": "[comments-subscribe] ${1:text} [/comments-subscribe]"
+    ,
+
+    "next-url:if":
+    "prefix": "next-url"
+    "body": "[next-url] ${1:text} [/next-url]"
+    ,
+
+    "next-url":
+    "prefix": "next-url"
+    "body": "{next-url}"
+    ,
+
+    "prev-url:if":
+    "prefix": "prev-url"
+    "body": "[prev-url] ${1:text} [/prev-url]"
+    ,
+
+    "prev-url":
+    "prefix": "prev-url"
+    "body": "{prev-url}"
+    ,
+
+    "mail":
+    "prefix": "mail"
+    "body": "{mail}"
+    ,
+
+    "comment":
+    "prefix": "comment"
+    "body": "{comment}"
+    ,
+
+    "comment:if":
+    "prefix": "comment"
+    "body": "{comment limit=\"${1:X}\"}"
+    ,
+
+    "comment-id":
+    "prefix": "comment-id"
+    "body": "{comment-id}"
+    ,
+
+    "ip":
+    "prefix": "ip"
+    "body": "{ip}"
+    ,
+
+    "com-edit":
+    "prefix": "com-edit"
+    "body": "[com-edit] ${1:edit} [/com-edit]"
+    ,
+
+    "com-del":
+    "prefix": "com-del"
+    "body": "[com-del] ${1:delete} [/com-del]"
+    ,
+
+    "news_title":
+    "prefix": "news_title"
+    "body": "{news_title}"
+    ,
+
+    "news-title":
+    "prefix": "news-title"
+    "body": "{news-title}"
+    ,
+
+    "news-link":
+    "prefix": "news-link"
+    "body": "{news-link}"
+    ,
+
+    "fullname":
+    "prefix": "fullname"
+    "body": "{fullname}"
+    ,
+
+    "land":
+    "prefix": "land"
+    "body": "{land}"
+    ,
+
+    "signature:if":
+    "prefix": "signature"
+    "body": "[signature] ${1:text} [/signature]"
+    ,
+
+    "signature":
+    "prefix": "signature"
+    "body": "{signature}"
+    ,
+
+    "registration:user":
+    "prefix": "registration"
+    "body": "{registration}"
+    ,
+
+    "lastdate":
+    "prefix": "lastdate"
+    "body": "{lastdate}"
+    ,
+
+    "fast":
+    "prefix": "fast"
+    "body": "[fast] ${1:text} [/fast]"
+    ,
+
+    "group-name":
+    "prefix": "group-name"
+    "body": "{group-name}"
+    ,
+
+    "news-num":
+    "prefix": "news-num"
+    "body": "{news-num}"
+    ,
+
+    "comm-num":
+    "prefix": "comm-num"
+    "body": "{comm-num}"
+    ,
+
+    "mass-action":
+    "prefix": "mass-action"
+    "body": "{mass-action}"
+    ,
+
+    "fullname:if":
+    "prefix": "fullname"
+    "body": "[fullname] ${1:text} [/fullname]"
+    ,
+
+    "not-fullname":
+    "prefix": "not-fullname"
+    "body": "[not-fullname] ${1:text} [/not-fullname]"
+    ,
+
+    "land:if":
+    "prefix": "land"
+    "body": "[land] ${1:text} [/land]"
+    ,
+
+    "not-land":
+    "prefix": "not-land"
+    "body": "[not-land] ${1:text} [/not-land]"
+    ,
+
+    "news-num:if":
+    "prefix": "news-num"
+    "body": "[news-num] ${1:text} [/news-num]"
+    ,
+
+    "not-news-num":
+    "prefix": "not-news-num"
+    "body": "[not-news-num] ${1:text} [/not-news-num]"
+    ,
+
+    "comm-num:if":
+    "prefix": "comm-num"
+    "body": "[comm-num] ${1:text} [/comm-num]"
+    ,
+
+    "not-comm-num":
+    "prefix": "not-comm-num"
+    "body": "[not-comm-num] ${1:text} [/not-comm-num]"
+    ,
+
+    "online":
+    "prefix": "online"
+    "body": "[online] ${1:text} [/online]"
+    ,
+
+    "offline":
+    "prefix": "offline"
+    "body": "[offline] ${1:text} [/offline]"
+    ,
+
+    "spam":
+    "prefix": "spam"
+    "body": "[spam] ${1:Spammer} [/spam]"
+    ,
+
+    "commentsgroup":
+    "prefix": "commentsgroup"
+    "body": "[commentsgroup=${1:1,2,3}] ${2:text} [/commentsgroup]"
+    ,
+
+    "not-commentsgroup":
+    "prefix": "not-commentsgroup"
+    "body": "[not-commentsgroup=${1:1,2,3}] ${2:text} [/not-commentsgroup]"
+    ,
+
+    "commentscount":
+    "prefix": "commentscount"
+    "body": "[commentscount=${1:x}] ${2:text} [/commentscount]"
+    ,
+
+    "not-commentscount":
+    "prefix": "not-commentscount"
+    "body": "[not-commentscount=${1:x}] ${2:text} [/not-commentscount]"
+    ,
+
+    "reply":
+    "prefix": "reply"
+    "body": "[reply] ${1:text} [/reply]"
+    ,
+
+    "treecomments":
+    "prefix": "treecomments"
+    "body": "[treecomments] ${1:text} [/treecomments]"
+    ,
+
+    "not-treecomments":
+    "prefix": "not-treecomments"
+    "body": "[not-treecomments] ${1:text} [/not-treecomments]"
+    ,
+
+    "rootcomments":
+    "prefix": "rootcomments"
+    "body": "[rootcomments] ${1:text} [/rootcomments]"
+    ,
+
+    "childrencomments":
+    "prefix": "childrencomments"
+    "body": "[childrencomments] ${1:text} [/childrencomments]"
+    ,
+
+    "replycount":
+    "prefix": "replycount"
+    "body": "{replycount}"
+    ,
+
+    "comments-author":
+    "prefix": "comments-author"
+    "body": "[comments-author] ${1:text} [/comments-author]"
+    ,
+
+    "not-comments-author":
+    "prefix": "not-comments-author"
+    "body": "[not-comments-author] ${1:text} [/not-comments-author]"
+    ,
+
+    "news-author":
+    "prefix": "news-author"
+    "body": "[news-author] ${1:text} [/news-author]"
+    ,
+
+    "not-news-author":
+    "prefix": "not-news-author"
+    "body": "[not-news-author] ${1:text} [/not-news-author]"
+    ,
+
+    "positive-comment":
+    "prefix": "positive-comment"
+    "body": "[positive-comment] ${1:text} [/positive-comment]"
+    ,
+
+    "negative-comment":
+    "prefix": "negative-comment"
+    "body": "[negative-comment] ${1:text} [/negative-comment]"
+    ,
+
+    "neutral-comment":
+    "prefix": "neutral-comment"
+    "body": "[neutral-comment] ${1:text} [/neutral-comment]"
+    ,
+
+    "root":
+    "prefix": "root"
+    "body": "[root] ${1:text} [/root]"
+    ,
+
+    "item":
+    "prefix": "item"
+    "body": "[item] ${1:text} [/item]"
+    ,
+
+    "sub-prefix":
+    "prefix": "sub-prefix"
+    "body": "[sub-prefix] ${1:text} [/sub-prefix]"
+    ,
+
+    "sub-suffix":
+    "prefix": "sub-suffix"
+    "body": "[sub-suffix] ${1:text} [/sub-suffix]"
+    ,
+
+    "sub-item":
+    "prefix": "sub-item"
+    "body": "{sub-item}"
+    ,
+
+    "id":
+    "prefix": "id"
+    "body": "{id}"
+    ,
+
+    "name":
+    "prefix": "name"
+    "body": "{name}"
+    ,
+
+    "url":
+    "prefix": "url"
+    "body": "{url}"
+    ,
+
+    "icon":
+    "prefix": "icon"
+    "body": "{icon}"
+    ,
+
+    "news-count":
+    "prefix": "news-count"
+    "body": "{news-count}"
+    ,
+
+    "active":
+    "prefix": "active"
+    "body": "[active] ${1:text} [/active]"
+    ,
+
+    "not-active":
+    "prefix": "not-active"
+    "body": "[not-active] ${1:text} [/not-active]"
+    ,
+
+    "isparent":
+    "prefix": "isparent"
+    "body": "[isparent] ${1:text} [/isparent]"
+    ,
+
+    "allow-download":
+    "prefix": "allow-download"
+    "body": "[allow-download] ${1:text} [/allow-download]"
+    ,
+
+    "not-allow-download":
+    "prefix": "not-allow-download"
+    "body": "[not-allow-download] ${1:text} [/not-allow-download]"
+    ,
+
+    "count:if":
+    "prefix": "count"
+    "body": "[count] ${1:text} [/count]"
+    ,
+
+    "id:file":
+    "prefix": "id"
+    "body": "{id}"
+    ,
+
+    "name:file":
+    "prefix": "name"
+    "body": "{name}"
+    ,
+
+    "extension":
+    "prefix": "extension"
+    "body": "{extension}"
+    ,
+
+    "link:file":
+    "prefix": "link"
+    "body": "{link}"
+    ,
+
+    "size":
+    "prefix": "size"
+    "body": "{size}"
+    ,
+
+    "md5":
+    "prefix": "md5"
+    "body": "{md5}"
+    ,
+
+    "date:file":
+    "prefix": "date"
+    "body": "{date}"
+    ,
+
+    "date:file-formated":
+    "prefix": "date"
+    "body": "{date=${1:date fromat}}"
+    ,
+
+    "count":
+    "prefix": "count"
+    "body": "{count}"
+    ,
+
+    "online-view-link":
+    "prefix": "online-view-link"
+    "body": "{online-view-link}"
+    ,
+
+    "allow-online":
+    "prefix": "allow-online"
+    "body": "[allow-online] ${1:text} [/allow-online]"
+    ,
+
+    "title:addcomments":
+    "prefix": "title"
+    "body": "{title}"
+    ,
+
+    "not-logged":
+    "prefix": "not-logged"
+    "body": "[not-logged] ${1:text} [/not-logged]"
+    ,
+
+    "editor:addcomment":
+    "prefix": "editor"
+    "body": "{editor}"
+    ,
+
+    "sec_code:if":
+    "prefix": "sec_code"
+    "body": "[sec_code] ${1:and} [/sec_code]"
+    ,
+
+    "sec_code":
+    "prefix": "sec_code"
+    "body": "{sec_code}"
+    ,
+
+    "recaptcha:if":
+    "prefix": "recaptcha"
+    "body": "[recaptcha] ${1:text} [/recaptcha]"
+    ,
+
+    "recaptcha":
+    "prefix": "recaptcha"
+    "body": "{recaptcha}"
+    ,
+
+    "question:if":
+    "prefix": "question"
+    "body": "[question] ${1:and} [/question]"
+    ,
+
+    "question":
+    "prefix": "question"
+    "body": "{question}"
+    ,
+
+    "title:vote":
+    "prefix": "title"
+    "body": "{title}"
+    ,
+
+    "question:vote":
+    "prefix": "question"
+    "body": "{question}"
+    ,
+
+    "votes":
+    "prefix": "votes"
+    "body": "{votes}"
+    ,
+
+    "list":
+    "prefix": "list"
+    "body": "{list}"
+    ,
+
+    "voted":
+    "prefix": "voted"
+    "body": "[voted] ${1:text} [/voted]"
+    ,
+
+    "not-voted":
+    "prefix": "not-voted"
+    "body": "[not-voted] ${1:text} [/not-voted]"
+    ,
+
+    "category:addarticle":
+    "prefix": "category"
+    "body": "{category}"
+    ,
+
+    "xfinput":
+    "prefix": "xfinput"
+    "body": "[xfinput_${1:X}]"
+    ,
+
+    "xfields":
+    "prefix": "xfields"
+    "body": "{xfields}"
+    ,
+
+    "bbcode":
+    "prefix": "bbcode"
+    "body": "{bbcode}"
+    ,
+
+    "admintag":
+    "prefix": "admintag"
+    "body": "{admintag}"
+    ,
+
+    "urltag":
+    "prefix": "urltag"
+    "body": "[urltag] ${1:and} [/urltag]"
+    ,
+
+    "not-wysywyg":
+    "prefix": "not-wysywyg"
+    "body": "[not-wysywyg] ${1:and} [/not-wysywyg]"
+    ,
+
+    "shortarea":
+    "prefix": "shortarea"
+    "body": "{shortarea}"
+    ,
+
+    "title:addarticle":
+    "prefix": "title"
+    "body": "{title}"
+    ,
+
+    "alt-name":
+    "prefix": "alt-name"
+    "body": "{alt-name}"
+    ,
+
+    "fullarea":
+    "prefix": "fullarea"
+    "body": "{fullarea}"
+    ,
+
+    "votetitle:addarticle":
+    "prefix": "votetitle"
+    "body": "{votetitle}"
+    ,
+
+    "frage":
+    "prefix": "frage"
+    "body": "{frage}"
+    ,
+
+    "votebody":
+    "prefix": "votebody"
+    "body": "{votebody}"
+    ,
+
+    "short-preview":
+    "prefix": "short-preview"
+    "body": "[short-preview] ${1:text} [/short-preview] "
+    ,
+
+    "full-preview":
+    "prefix": "full-preview"
+    "body": "[full-preview] ${1:text} [/full-preview] "
+    ,
+
+    "static-preview":
+    "prefix": "static-preview"
+    "body": "[static-preview] ${1:text} [/static-preview] "
+    ,
+
+    "prev-link":
+    "prefix": "prev-link"
+    "body": "[prev-link] ${1:text} [/prev-link]"
+    ,
+
+    "next-link":
+    "prefix": "next-link"
+    "body": "[next-link] ${1:text} [/next-link]"
+    ,
+
+    "pages":
+    "prefix": "pages"
+    "body": "{pages}"
+    ,
+
+    "registration:registratin":
+    "prefix": "registration"
+    "body": "[registration] ${1:and} [/registration]"
+    ,
+
+    "validation":
+    "prefix": "validation"
+    "body": "[validation] ${1:and} [/validation]"
+    ,
+
+    "reg_code:registration":
+    "prefix": "reg_code"
+    "body": "{reg_code}"
+    ,
+
+    "usertitle":
+    "prefix": "usertitle"
+    "body": "{usertitle}"
+    ,
+
+    "info:profile":
+    "prefix": "info"
+    "body": "{info}"
+    ,
+
+    "editmail":
+    "prefix": "editmail"
+    "body": "{editmail}"
+    ,
+
+    "status":
+    "prefix": "status"
+    "body": "{status}"
+    ,
+
+    "rate":
+    "prefix": "rate"
+    "body": "{rate}"
+    ,
+
+    "commentsrate":
+    "prefix": "commentsrate"
+    "body": "{commentsrate}"
+    ,
+
+    "editinfo":
+    "prefix": "editinfo"
+    "body": "{editinfo}"
+    ,
+
+    "hidemail":
+    "prefix": "hidemail"
+    "body": "{hidemail}"
+    ,
+
+    "registration:UserProfile":
+    "prefix": "registration"
+    "body": "{registration}"
+    ,
+
+    "editsignature":
+    "prefix": "editsignature"
+    "body": "{editsignature}"
+    ,
+
+    "allowed-ip":
+    "prefix": "allowed-ip"
+    "body": "{allowed-ip}"
+    ,
+
+    "time_limit:if":
+    "prefix": "time_limit"
+    "body": "[time_limit] ${1:text} [/time_limit]"
+    ,
+
+    "time_limit":
+    "prefix": "time_limit"
+    "body": "{time_limit}"
+    ,
+
+    "rss":
+    "prefix": "rss"
+    "body": "[rss] ${1:text} [/rss]"
+    ,
+
+    "ignore-list":
+    "prefix": "ignore-list"
+    "body": "{ignore-list}"
+    ,
+
+    "profile-user-group":
+    "prefix": "profile-user-group"
+    "body": "[profile-user-group=${1:X}] ${2:Text} [/profile-user-group]"
+    ,
+
+    "not-profile-user-group":
+    "prefix": "not-profile-user-group"
+    "body": "[not-profile-user-group=${1:X}] ${2:Text} [/not-profile-user-group]"
+    ,
+
+    "timezones":
+    "prefix": "timezones"
+    "body": "{timezones}"
+    ,
+
+    "news-subscribe":
+    "prefix": "news-subscribe"
+    "body": "{news-subscribe}"
+    ,
+
+    "unsubscribe":
+    "prefix": "unsubscribe"
+    "body": "{unsubscribe}"
+    ,
+
+    "comments-reply-subscribe":
+    "prefix": "comments-reply-subscribe"
+    "body": "{comments-reply-subscribe}"
+    ,
+
+    "pm:UserProfile":
+    "prefix": "pm"
+    "body": "{pm}"
+    ,
+
+    "email":
+    "prefix": "email"
+    "body": "{email}"
+    ,
+
+    "twofactor-auth":
+    "prefix": "twofactor-auth"
+    "body": "{twofactor-auth}"
+    ,
+
+    "searchtable":
+    "prefix": "searchtable"
+    "body": "{searchtable}"
+    ,
+
+    "searchmsg":
+    "prefix": "searchmsg"
+    "body": "{searchmsg}"
+    ,
+
+    "searchmsg:if":
+    "prefix": "searchmsg"
+    "body": "[searchmsg] ${1:and} [/searchmsg]"
+    ,
+
+    "searchposts":
+    "prefix": "searchposts"
+    "body": "[searchposts] ${1:and} [/searchposts]"
+    ,
+
+    "searchcomments":
+    "prefix": "searchcomments"
+    "body": "[searchcomments] ${1:and} [/searchcomments]"
+    ,
+
+    "fullresult":
+    "prefix": "fullresult"
+    "body": "[fullresult] ${1:and} [/fullresult]"
+    ,
+
+    "shortresult":
+    "prefix": "shortresult"
+    "body": "[shortresult] ${1:and} [/shortresult]"
+    ,
+
+    "datenbank":
+    "prefix": "datenbank"
+    "body": "{datenbank}"
+    ,
+
+    "news_num":
+    "prefix": "news_num"
+    "body": "{news_num}"
+    ,
+
+    "news_allow":
+    "prefix": "news_allow"
+    "body": "{news_allow}"
+    ,
+
+    "news_main":
+    "prefix": "news_main"
+    "body": "{news_main}"
+    ,
+
+    "news_moder":
+    "prefix": "news_moder"
+    "body": "{news_moder}"
+    ,
+
+    "comm_num":
+    "prefix": "comm_num"
+    "body": "{comm_num}"
+    ,
+
+    "user_num":
+    "prefix": "user_num"
+    "body": "{user_num}"
+    ,
+
+    "user_banned":
+    "prefix": "user_banned"
+    "body": "{user_banned}"
+    ,
+
+    "topusers":
+    "prefix": "topusers"
+    "body": "{topusers}"
+    ,
+
+    "news_day":
+    "prefix": "news_day"
+    "body": "{news_day}"
+    ,
+
+    "news_week":
+    "prefix": "news_week"
+    "body": "{news_week}"
+    ,
+
+    "news_month":
+    "prefix": "news_month"
+    "body": "{news_month}"
+    ,
+
+    "comm_day":
+    "prefix": "comm_day"
+    "body": "{comm_day}"
+    ,
+
+    "comm_week":
+    "prefix": "comm_week"
+    "body": "{comm_week}"
+    ,
+
+    "comm_month":
+    "prefix": "comm_month"
+    "body": "{comm_month}"
+    ,
+
+    "user_day":
+    "prefix": "user_day"
+    "body": "{user_day}"
+    ,
+
+    "user_week":
+    "prefix": "user_week"
+    "body": "{user_week}"
+    ,
+
+    "user_month":
+    "prefix": "user_month"
+    "body": "{user_month}"
+    ,
+
+    "title:info":
+    "prefix": "title"
+    "body": "{title}"
+    ,
+
+    "error":
+    "prefix": "error"
+    "body": "{error}"
+    ,
+
+    "recipient:Feedback":
+    "prefix": "recipient"
+    "body": "{recipient}"
+    ,
+
+    "code:Feedback":
+    "prefix": "code"
+    "body": "{code}"
+    ,
+
+    "attachments":
+    "prefix": "attachments"
+    "body": "[attachments] ${1:text} [/attachments]"
+    ,
+
+    "description":
+    "prefix": "description"
+    "body": "{description}"
+    ,
+
+    "static":
+    "prefix": "static"
+    "body": "{static}"
+    ,
+
+    "text:limit":
+    "prefix": "text"
+    "body": "{text limit=\"${1:x}\"} "
+    ,
+
+    "static:if":
+    "prefix": "static"
+    "body": "[static=${1:page name}] ${2:text} [/static]"
+    ,
+
+    "not-static":
+    "prefix": "not-static"
+    "body": "[not-static=${1:page name}] ${2:text} [/not-static] "
+    ,
+
+    "inbox":
+    "prefix": "inbox"
+    "body": "[inbox] ${1:and} [/inbox]"
+    ,
+
+    "outbox":
+    "prefix": "outbox"
+    "body": "[outbox] ${1:and} [/outbox]"
+    ,
+
+    "new_pm":
+    "prefix": "new_pm"
+    "body": "[new_pm] ${1:and} [/new_pm]"
+    ,
+
+    "pmlist:if":
+    "prefix": "pmlist"
+    "body": "[pmlist] ${1:and} [/pmlist]"
+    ,
+
+    "pmlist":
+    "prefix": "pmlist"
+    "body": "{pmlist}"
+    ,
+
+    "newpm":
+    "prefix": "newpm"
+    "body": "[newpm] ${1:and} [/newpm]"
+    ,
+
+    "pm-limit":
+    "prefix": "pm-limit"
+    "body": "{pm-limit}"
+    ,
+
+    "proc-pm-limit":
+    "prefix": "proc-pm-limit"
+    "body": "{proc-pm-limit}"
+    ,
+
+    "pm-progress-bar":
+    "prefix": "pm-progress-bar"
+    "body": "{pm-progress-bar}"
+    ,
+
+    "author:pm":
+    "prefix": "author"
+    "body": "{author}"
+    ,
+
+    "subj":
+    "prefix": "subj"
+    "body": "{subj}"
+    ,
+
+    "editor:pm":
+    "prefix": "editor"
+    "body": "{editor}"
+    ,
+
+    "text:pm":
+    "prefix": "text"
+    "body": "{text}"
+    ,
+
+    "readpm":
+    "prefix": "readpm"
+    "body": "[readpm] ${1:and} [/readpm]"
+    ,
+
+    "reply:pm":
+    "prefix": "reply"
+    "body": "[reply] ${1:and} [/reply]"
+    ,
+
+    "del":
+    "prefix": "del"
+    "body": "[del] ${1:and} [/del]"
+    ,
+
+    "ignore":
+    "prefix": "ignore"
+    "body": "[ignore]${1:text}[/ignore]"
+    ,
+
+    "tags:limit":
+    "prefix": "tags"
+    "body": "{tags limit=\"${1:100}\"}"
+    ,
+
+    "vote_id":
+    "prefix": "vote_id"
+    "body": "{vote_id}"
+    ,
+
+    "votelist":
+    "prefix": "votelist"
+    "body": "[votelist] ${1:and} [/votelist]"
+    ,
+
+    "voteresult":
+    "prefix": "voteresult"
+    "body": "[voteresult] ${1:and} [/voteresult] "
+    ,
+
+    "link":
+    "prefix": "link"
+    "body": "{link}"
+    ,
+
+    "text":
+    "prefix": "text"
+    "body": "{text}"
+    ,
+
+    "reason":
+    "prefix": "reason"
+    "body": "{reason}"
+    ,
+
+    "speedbar":
+    "prefix": "speedbar"
+    "body": "{speedbar}"
+    ,
+
+    "shortrss":
+    "prefix": "shortrss"
+    "body": "[shortrss] ${1:text} [/shortrss] "
+    ,
+
+    "fullrss":
+    "prefix": "fullrss"
+    "body": "[fullrss] ${1:text} [/fullrss]"
+    ,
+
+    "yandexrss":
+    "prefix": "yandexrss"
+    "body": "[yandexrss] ${1:text} [/yandexrss] "
+    ,
+
+    "rsslink":
+    "prefix": "rsslink"
+    "body": "{rsslink}"
+    ,
+
+    "rssauthor":
+    "prefix": "rssauthor"
+    "body": "{rssauthor}"
+    ,
+
+    "rssdate":
+    "prefix": "rssdate"
+    "body": "{rssdate}"
+    ,
+
+    "images:rss":
+    "prefix": "images"
+    "body": "{images}"
+    ,
+
+    "link:informer":
+    "prefix": "link"
+    "body": "[link] ${1:text} [/link]"
