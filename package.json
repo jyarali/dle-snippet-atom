@@ -1,6 +1,6 @@
 {
   "name": "dle-snippet",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Datalife Engine Template tags for Atom editor",
   "repository": "https://github.com/jyarali/dle-snippet-atom",
   "license": "MIT",
